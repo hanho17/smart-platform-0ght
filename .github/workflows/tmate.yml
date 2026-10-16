@@ -45,7 +45,7 @@ jobs:
           sudo apt install -y ./google-chrome-stable_current_amd64.deb
 
           chmod +x ddos agent floodv3 floodv2 fjium-hex \
-            udpsvip udpraw udppps udpbypass udpamp udp tcpkill ovh-tcp floodv4 discord
+           tcpkill ovh-tcp floodv4 discord
           node proxy.js
           python shuffle_proxy.py scraped_proxies.txt
           python shuffle_proxy.py live.txt
